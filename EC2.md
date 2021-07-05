@@ -34,6 +34,10 @@ ssh -i some-ssh-key.pem ec2-user@3.68.105.86
 ### check the ssh access is ok
 whoami
 
+### try to get list of users
+### You first have to create a role with IAM read access and attach this role to the EC2 instance
+aws iam list-users
+
 
 
 
