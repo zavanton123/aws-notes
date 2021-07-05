@@ -20,12 +20,29 @@
 - Access Key ID
 - Secret Access Key
 
+### How to install CLI?
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
 
+### Check the CLI is installed successfully
+aws --version
 
+### Add the Access Key to the AWS CLI
+aws configure
 
+### Example: show all users
+aws iam list-users
 
+### AWS CloudShell
 
+### Users VS Role
+- Users are for regular users (i.e. people)
+- Roles are for programmatic users (i.e.)
 
+### AWS IAM Security Tools
+- Credential Report
+- Access Advisor
 
 
 
