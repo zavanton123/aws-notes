@@ -1,4 +1,4 @@
-### AWS 
+### AWS Introduction
 - Regions (us-east-1, eu-west-3...) are clusters of data centers
 - Regions consist of Availability Zones (from 2 to 6). AZ is one (or more) data center.
 - Points of Presence (Edge Locations)
@@ -10,6 +10,15 @@
 - Root Account Vs Groups and Users
 - Policies and Permissions
 - Password Policy VS MFA (Multi Factor Authentication)
+
+### IAM components:
+- Groups
+- Users
+- Roles
+- Policies
+
+### User
+- AWS Access Type: AWS Management Console VS Programmatic
 
 ### How to access AWS?
 - AWS Management Console
@@ -33,6 +42,8 @@ aws configure
 
 ### Example: show all users
 aws iam list-users
+aws iam list-groups
+aws iam list-policies
 
 ### AWS CloudShell
 
@@ -43,9 +54,3 @@ aws iam list-users
 ### AWS IAM Security Tools
 - Credential Report
 - Access Advisor
-
-
-
-
-
- 
