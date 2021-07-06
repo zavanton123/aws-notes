@@ -1,0 +1,62 @@
+### IAM action:
+- create a group
+- create a user and add it to some group
+- login as root/login as user
+- add policies from the group
+- add policies from the user
+- create a new policy
+- create a role (e.g. for EC2)
+- download credential report
+- see some user's access advisor
+- create some user's security credentials (create Access Key)
+
+
+
+### EC2 actions
+- choose an AMI for the new EC2 instance
+- choose an instance type (t.g. t2.micro) for the new EC2 instance
+- create a new EC2 instance
+- create a new security group
+- change its inbound/outbound rules
+- add IAM role to EC2 instance
+- access EC2 instance by its public IP and DNS in browser (via http)
+- access EC2 instance by its public IP and DNS via ssh
+- create a new EBS volume and attach it to some EC2 instance
+- create a snapshot of some EC2 volume
+- create a volume from the snapshot in a different AZ
+- create a new AMI from the snapshot (or volume)
+- create a new EC2 instance from the new AMI
+
+
+
+
+### EFS actions:
+- create an EFS
+- attach the EFS to several EC2 instances in different AZ
+```
+- create two or more EC2 instances in the same region but in different AZ
+- the EC2 instances must share the same Security Group
+- create a new EFS
+- create a new Security Group and attach it to the EFS
+- the EFS Security Group inbound rule must allow NFS connection from the EC2s Security Group
+- ssh to all the EC2 instances
+- install amazon-efs-utils and create efs dir
+- use the utils to mount the EFS
+- create some file (it will be shared among EC2 instances)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
