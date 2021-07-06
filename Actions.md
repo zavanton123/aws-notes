@@ -70,7 +70,11 @@
 
 ### ASG Scaling Policies
 - Target Tracking Scaling
-- Simple/Step Scaling
+- Simple Scaling (based on CloudWatch alarms)
+- Step Scaling (based on CloudWatch alarms)
+- Scheduled Actions
+
+### Scaling Cooldown
 
 
 
