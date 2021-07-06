@@ -82,6 +82,40 @@ sudo touch hello-world.txt
 
 
 
+### ELB (EC2 Load Balancer)
+- CLB (Classic ELB)
+- ALB (Application ELB)
+- Network ELB
+
+
+### ALB
+- has Target Groups:
+ - Instance based
+ - IP based
+ - Lambda based
+- Target Groups can be sticky
+- Cross-Zone Load Balancing is on (and can't be disabled)
+
+
+### Network Load Balancer (NLB)
+- TCP/UDP based
+- Cross-Zone Load Balancing is disabled by default
+
+
+
+
+
+### SNI (Server Name Indication)
+### (i.e. how webserver can hangle different certs for different websites)
+
+
+### Connection Draining (or Deregistration Delay)
+
+
+### ASG (Auto Scaling Group)
+
+
+
 
 
 

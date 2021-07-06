@@ -48,10 +48,29 @@
 
 
 
+### ELB actions:
+- create a classic ELB and a security group for it
+- create three EC2 instances and configure their security group to allow only traffic from ELB
+- Enable/Disable Cross-Zone Load Balancing for the ELB
 
 
 
+### ALB actions:
+- create an ALB (with a Target Group and a Security Group)
+- create three EC2 instances and configure their security group to allow only traffic from ALB
+- create a new Target Group
+- update the Listener of the ALB (add a new rule to forward to the new Target Group)
+- Make Target Group Sticky
 
+
+
+### ASG actions:
+- create an ASG
+- increase/decrease the desired number of EC2 instances in the group
+
+### ASG Scaling Policies
+- Target Tracking Scaling
+- Simple/Step Scaling
 
 
 
