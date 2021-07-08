@@ -66,7 +66,7 @@
 
 ### ASG actions:
 - create an ASG
-- increase/decrease the desired number of EC2 instances in the group
+- increase/decrease the desired number of EC2 enstances in the group
 
 ### ASG Scaling Policies
 - Target Tracking Scaling

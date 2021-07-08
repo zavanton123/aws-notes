@@ -4,6 +4,7 @@
 - Points of Presence (Edge Locations)
 - ARN (Amazon Resource Name)
 
+
 ### IAM Service
 - Identity and Access Management
 - This is a global service
@@ -11,11 +12,12 @@
 - Policies and Permissions
 - Password Policy VS MFA (Multi Factor Authentication)
 
-### IAM components:
+
+### IAM Identities
 - Groups
 - Users
 - Roles
-- Policies
+
 
 ### User
 - AWS Access Type: AWS Management Console VS Programmatic
