@@ -9,6 +9,7 @@
 - download credential report
 - see some user's access advisor
 - create some user's security credentials (create Access Key)
+- login using AWS CLI
 
 
 
@@ -21,6 +22,8 @@
 - add IAM role to EC2 instance
 - access EC2 instance by its public IP and DNS in browser (via http)
 - access EC2 instance by its public IP and DNS via ssh
+- using IAM role show all the IAM users via the ssh
+- create a clone of the image by ('launch more like this', or a new template, or a new AMI)
 - create a new EBS volume and attach it to some EC2 instance
 - create a snapshot of some EC2 volume
 - create a volume from the snapshot in a different AZ
@@ -66,7 +69,7 @@
 
 ### ASG actions:
 - create an ASG
-- increase/decrease the desired number of EC2 enstances in the group
+- increase/decrease the desired number of EC2 instances in the group
 
 ### ASG Scaling Policies
 - Target Tracking Scaling

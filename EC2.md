@@ -85,7 +85,7 @@ sudo touch hello-world.txt
 ### ELB (EC2 Load Balancer)
 - CLB (Classic ELB)
 - ALB (Application ELB)
-- Network ELB
+- NLB (Network ELB)
 
 
 ### ALB
@@ -106,7 +106,7 @@ sudo touch hello-world.txt
 
 
 ### SNI (Server Name Indication)
-### (i.e. how webserver can hangle different certs for different websites)
+### (i.e. how webserver can handle different certs for different websites)
 
 
 ### Connection Draining (or Deregistration Delay)
