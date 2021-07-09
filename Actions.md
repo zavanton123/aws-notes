@@ -77,12 +77,24 @@
 - Step Scaling (based on CloudWatch alarms)
 - Scheduled Actions
 
-### Scaling Cooldown
 
 
 
 
 
+### RDS actions:
+- Create a DB and connect to it
 
+
+### ElastiCache actions:
+- Create an ElastiCache instance
+
+
+
+### Route 53:
+- Register a new domain name
+- Add A, AAAA, CNAME records (+ Alias)
+- Use different routing policies (simple, weighted, latency, geolocation, failover multi-value)
+- Use Health Checks with routing policies 
 
 
