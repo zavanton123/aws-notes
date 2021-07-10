@@ -56,3 +56,11 @@ aws iam list-policies
 ### AWS IAM Security Tools
 - Credential Report
 - Access Advisor
+
+
+
+
+
+
+### Roles and Policies
+- A role can have an 'inline policy' (i.e. non global policy)
