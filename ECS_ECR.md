@@ -16,7 +16,10 @@ ECS Cluster > EC2 Instance > ECS Agent
 
 
 ### ECR (Elastic Container Registry - like Docker Hub)
-
+aws ecr get-login-password --region eu-central-1 | docker login --username AWS --password-stdin 565447122202.dkr.ecr.eu-central-1.amazonaws.com
+docker build -t demo .
+docker tag demo:latest 565447122202.dkr.ecr.eu-central-1.amazonaws.com/demo:latest
+docker push 565447122202.dkr.ecr.eu-central-1.amazonaws.com/demo:latest
 
 
 ### Actions
