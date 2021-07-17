@@ -6,7 +6,7 @@ RUN apt-get update \
     jq \
     && rm -r /var/lib/apt/lists/*
 
-COPY ./public-html/ /usr/local/apache2/htdocs/
+COPY public-html /usr/local/apache2/htdocs/
 
 ADD bootstrap.sh /bootstrap.sh
 

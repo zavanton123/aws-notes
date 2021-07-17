@@ -20,7 +20,9 @@
 
 - CloudFormation
 
-
+- CloudWatch
+- CloudTrail
+- X-Ray
 
 
 
