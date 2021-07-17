@@ -143,7 +143,45 @@ no shutdown
 
 
 
+# DISABLE DNS LOOKUP (FOR SHOWING MISTAKES WHEN YOU MISTYPE SOMETHING...)
+# ENCRYPT EXISTING PLAIN-TEXT PASSWORDS
+enable
+configure terminal 
+### disable dns lookup
+no ip domain-lookup
+### convert the existing unencrypted passwords into encrypted ones
+service password-encryption
 
+
+
+# ENABLE SYNCHRONOUS LOGGING
+enable
+configure terminal 
+line con 0
+logging synchronous
+
+
+
+
+
+# SAVE CONFIGURATION (ON DEVICE)
+enable
+copy running-config startup-config
+### or shortcut
+write
+### check the startup config
+show startup-config
+
+
+
+# TELNET TO ROUTER USING USERNAME AND PASSWORD
+enable 
+conf t
+username zavanton secret some-secret
+### configure the virtual terminal
+line vty 0 4
+### enable login/password with telnet
+login local
 
 
 
