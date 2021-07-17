@@ -52,3 +52,105 @@ write erase
 
 
 
+
+
+
+# NAMING
+## 'config' mode commands
+### rename the host
+hostname some-name-here
+
+### set the login banner (motd = message of the day)
+banner motd $ hello world $
+
+
+
+
+
+
+
+
+
+# SET PASSWORD FOR THE PRIVILEGED MODE
+## 'config' mode commands
+### set a password (unhashed) for the privileged mode
+enable password some-pass-here
+### remove the password
+no enable password
+### set a secret (hashed) for the privileged mode
+enable secret some-secret-here
+### (privileged mode) show running config
+show running-config
+
+
+
+
+
+
+
+
+# SET PASSWORD FOR VIRTUAL TERMINAL
+### 'vty' (virtual teletype)
+### configure all the virtual terminals from 0 to 4
+### (i.e. enter config mode for virtual terminals)
+line vty 0 4
+### remove login
+no login
+### enable login
+login
+### set a password
+password some-password here
+
+
+
+
+
+# SET PASSWORD FOR THE CONSOLE TERMINAL
+### (config mode command)
+### enter config mode for the console terminal
+line con 0
+### enable login
+login
+### set password
+password some-pass-here
+
+
+
+
+
+
+
+# SET USERNAME
+### (config mode)
+### create a username
+username some-username
+### or create a username with secret
+username some-username secret som-secret
+
+
+
+
+# SET IP ADDRESS FOR THE ROUTER AND TURN ON THE INTERFACE
+show ip interface brief
+enable 
+configure terminal
+interface gigabitEthernet 0/0
+### assign an ip address to the interface
+ip address 192.168.10.1 255.255.255.0
+### turn on the interface
+no shutdown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
