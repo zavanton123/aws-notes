@@ -19,12 +19,17 @@
 - CodeStar
 
 - CloudFormation
+- Cloud Development Kit (CDK)
 
 - CloudWatch
 - CloudTrail
 - X-Ray
 
+- SQS
+- SNS
+- Kinesis
 
+- AWS Lambda
 
 
 
