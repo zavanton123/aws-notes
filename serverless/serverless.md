@@ -12,6 +12,10 @@
 - IAM role (i.e. lambda hase the right to use other resources)
 - By default lambda is created in Amazon VPC
 - You can create a lambda in your private VPC, so that it can access your resources (RDS, etc.)
+- Lambda Concurrency (reserved/unreserved and provisioned concurrency)
+- Lambda Layers
+- Lambda Versions (immutable)
+- Lambda Aliases (mutable)
 
 
 
