@@ -10,6 +10,8 @@
 - Resource Based Policies (i.e. other resources have the right to invoke the Lambda)
 - (Note: Lambda Resource Based Policies are similar to S3 Bucket Policies)
 - IAM role (i.e. lambda hase the right to use other resources)
+- By default lambda is created in Amazon VPC
+- You can create a lambda in your private VPC, so that it can access your resources (RDS, etc.)
 
 
 
