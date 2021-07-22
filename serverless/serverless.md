@@ -18,6 +18,16 @@
 - Lambda Aliases (mutable)
 
 
+### DynamoDB
+- NoSQL DB
+
+### API Gateway
+- Client > (REST API) > API Gateway > Lambda > DynamoDB
+- Integrates with Lambda, HTTP, any AWS Service
+- Endpoint types: edge-optimized (default), regional, private
+- Deployment Stages
+
+
 
 
 
