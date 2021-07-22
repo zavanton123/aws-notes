@@ -19,6 +19,7 @@
 - CodeStar
 
 - CloudFormation
+- SAM
 - Cloud Development Kit (CDK)
 
 - CloudWatch
@@ -30,6 +31,9 @@
 - Kinesis
 
 - AWS Lambda
+- DynamoDB
+- API Gateway
+- Step Functions
 
 
 
